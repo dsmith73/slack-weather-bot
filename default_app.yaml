@@ -1,0 +1,19 @@
+# This is a comment
+# application is mandatory
+application: yourapplicationnamegoeshere
+# version is mandatory
+version: 1-13
+# environment variables
+env_variables:
+        OWM_API_KEY: 'REDACTED'
+        VERSION: 1-13
+# runtime is mandatory
+runtime: go
+
+# api_version is mandatory
+api_version: go1
+
+# handlers is mandatory
+handlers:
+- url: /.*
+  script: _go_app
