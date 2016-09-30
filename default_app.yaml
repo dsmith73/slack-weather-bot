@@ -5,7 +5,10 @@ application: yourapplicationnamegoeshere
 version: 1-13
 # environment variables
 env_variables:
+        DEFAULT_ZIP: '90071'
+        LANG: 'EN'
         OWM_API_KEY: 'REDACTED'
+        UNITS: 'F'
         VERSION: 1-13
 # runtime is mandatory
 runtime: go
