@@ -14,5 +14,5 @@ assuming slash command `/weather` has been setup in your Slack and you have a ru
 2. slackweatherbot takes the zip parameter and assuming a valid openweather.org API key and a valid zip code, gets the current conditions for that zip, formats it and sends it to you on Slack 
 
 ##### notes
-1. i put all my Slack bots up in Google Compute Engine, so this code is slightly different than if you want to self-host. 
+1. i put all my Slack bots up in Google App Engine, so this code is slightly different than if you want to self-host. 
 2. this is just a v0.1/skeleton.
